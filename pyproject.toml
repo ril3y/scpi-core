@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scpi-core"
-version = "0.1.1"
+version = "0.1.2"
 description = "Device-agnostic SCPI instrument communication library with TCP and serial transports"
 authors = [
     {name = "Riley Porter", email = "rileyporter@gmail.com"},
 ]
 license = {text = "MIT"}
+readme = "README.md"
 requires-python = ">=3.9"
 keywords = ["scpi", "instruments", "test-equipment", "oscilloscope", "measurement"]
 classifiers = [
