@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scpi-core"
-version = "0.1.0"
+version = "0.1.1"
 description = "Device-agnostic SCPI instrument communication library with TCP and serial transports"
 authors = [
     {name = "Riley Porter", email = "rileyporter@gmail.com"},
