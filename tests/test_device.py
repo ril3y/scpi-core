@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import pytest
 from scpi_core import ScpiDevice, ScpiProtocolError
 from scpi_core.transport import Transport

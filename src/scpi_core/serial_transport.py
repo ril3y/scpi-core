@@ -1,7 +1,8 @@
 """Serial (USB/RS-232) transport for SCPI instruments.
 
-Requires pyserial: pip install pyscpi[serial]
+Requires pyserial: pip install scpi-core[serial]
 """
+from __future__ import annotations
 
 try:
     import serial

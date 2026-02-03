@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from .transport import Transport
 from .errors import ScpiProtocolError, ScpiTimeoutError
 
