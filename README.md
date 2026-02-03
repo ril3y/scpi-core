@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ril3y/scpi-core/main/scpi-core.png" alt="scpi-core logo" width="400">
+</p>
+
 # scpi-core
 
 A device-agnostic SCPI (Standard Commands for Programmable Instruments) communication library for Python.
