@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scpi-core"
+version = "0.1.0"
+description = "Device-agnostic SCPI instrument communication library with TCP and serial transports"
+authors = [
+    {name = "Riley Porter", email = "rileyporter@gmail.com"},
+]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+keywords = ["scpi", "instruments", "test-equipment", "oscilloscope", "measurement"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+]
+
+[project.urls]
+Homepage = "https://github.com/ril3y/scpi-core"
+Repository = "https://github.com/ril3y/scpi-core"
+Issues = "https://github.com/ril3y/scpi-core/issues"
+
+[project.optional-dependencies]
+serial = ["pyserial>=3.5"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
